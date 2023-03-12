@@ -206,16 +206,27 @@ fieldset {
   width: 100%;
 }
 
-.button {
-  font-family: 'Staatliches';
-  font-size: 20px;
-  line-height: 26px;
+footer {
+  display: flex;
+  justify-content: center;
+}
 
-  color: #FFFFFF;
+footer .button {
+
+  position: absolute;
   width: 622px;
   height: 51px;
+  top: 1423px;
+
   background: #F67669;
   border-radius: 8px;
   border: none;
 
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 26px;
+
+
+
+  color: #FFFFFF;
 }
